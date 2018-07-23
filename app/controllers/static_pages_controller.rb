@@ -7,4 +7,8 @@ class StaticPagesController < ApplicationController
   
   def about
   end
+  
+  def static_pages
+    redirect_to home
+  end
 end
